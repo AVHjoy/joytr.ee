@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 body {
-    background: linear-gradient(189deg, rgba(9,41,4,0.8519782913165266) 18%, rgba(0,152,2,1) 94%);
+    background: linear-gradient(100deg, rgba(9,41,4,0.8519782913165266) 18%, rgba(0,152,2,1) 94%);
     font-family: 'Roboto', sans-serif;
 }
 .container {
