@@ -39,6 +39,7 @@ h1 {
     opacity: 0.8;
     font-size: 18px;
 }
+
 ul {
     list-style: none;
     margin: 30px 0;
@@ -81,3 +82,26 @@ footer:hover {
 footer a {
     color: #052f00
 }
+.link {
+    display: inline-block;
+    position: relative;
+    color: #2eac1a;
+  }
+  
+  .link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #052f00;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
